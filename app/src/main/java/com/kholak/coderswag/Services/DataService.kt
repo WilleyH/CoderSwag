@@ -4,7 +4,7 @@ import com.kholak.coderswag.Model.Category
 import com.kholak.coderswag.Model.Product
 
 /**
- * Created by nsilska on 2017-11-28.
+ * Created by kholak on 2017-11-28.
  */
 object DataService {
     val categories = listOf(
