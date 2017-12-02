@@ -2,6 +2,8 @@ package com.kholak.coderswag.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.AdapterView
+import android.widget.Toast
 import com.kholak.coderswag.Adapters.CategoryAdapter
 import com.kholak.coderswag.Model.Category
 import com.kholak.coderswag.R
@@ -18,5 +20,9 @@ class MainActivity : AppCompatActivity() {
 
         adapter = CategoryAdapter(this, DataService.categories)
         categoryListView.adapter = adapter
+
+//        categoryListView.setOnItemClickListener { adapterView, view, i, l ->
+//            val category = DataService.categories[i]
+//        }
     }
 }
